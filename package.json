@@ -8,7 +8,7 @@
     "stash": "git stash && git stash drop"
   },
   "dependencies":{
-    "@adiwajshing/baileys":"latest",
+    "@whiskeysockets/baileys": "npm:dcm-baileys-pro",
     "@adiwajshing/keyed-db":"^0.2.4",
     "@blackamda/telegram-image-url":"^1.0.0",
     "@bochilteam/scraper":"^4.0.22-alpha.0",
@@ -104,6 +104,7 @@
     "axios-cookiejar-support": "latest",
     "tough-cookie": "latest",
     "tempmail.js": "latest",
+    "buffer": "latest",
     "qs": "latest",
     "sharp": "^0.34.1",
     "gradient-string": "^2.0.2",
