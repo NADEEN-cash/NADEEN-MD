@@ -7,7 +7,7 @@ const config = require('../config'),
   {
     generateWAMessageContent,
     generateWAMessageFromContent,
-  } = require('darksadas-new-baliyes'),
+  } = require('@whiskeysockets/baileys'),
   { cmd, commands } = require('../command'),
   {
     getBuffer,
