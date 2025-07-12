@@ -6,7 +6,9 @@
   "scripts":{
     "start":"pm2 start nadeen.js --deep-monitoring --attach --name nadeen",
     "stop":"pm2 stop nadeen",
-    "restart":"pm2 restart nadeen"},
+    "restart":"git pull && npm stop && npm start"
+     "stash": "git stash && git stash drop"
+  },
   "dependencies":{
     "@adiwajshing/baileys":"latest",
     "@adiwajshing/keyed-db":"^0.2.4",
@@ -105,11 +107,14 @@
     "tough-cookie": "latest",
     "tempmail.js": "latest",
     "qs": "latest",
-    "sharp":"^0.30.5",
+    "sharp": "^0.34.1",
     "gradient-string": "^2.0.2",
     "prompt-sync": "^4.2.0",
     "adm-zip": "^0.5.16",
     "simple-git": "latest",
     "ytsearch-venom":"^1.0.0"
+  },
+  "overrides": {
+    "css-select": "4.1.0"
   }
 }
