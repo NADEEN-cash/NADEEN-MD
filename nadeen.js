@@ -30,7 +30,7 @@ const path = require('path')
 const msgRetryCounterCache = new NodeCache()
 
 const FileType = require('file-type')
-const l = console.log
+//const l = console.log
 
 var {
   updateCMDStore,
