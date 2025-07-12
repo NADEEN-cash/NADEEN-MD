@@ -4,8 +4,8 @@
   "scripts":{
     "start":"pm2 start nadeen.js --deep-monitoring --attach --name nadeen",
     "stop":"pm2 stop nadeen",
-    "restart":"git pull && npm stop && npm start"
-     "stash": "git stash && git stash drop"
+    "restart":"git pull && npm stop && npm start",
+    "stash": "git stash && git stash drop"
   },
   "dependencies":{
     "@adiwajshing/baileys":"latest",
