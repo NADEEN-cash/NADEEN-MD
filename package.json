@@ -1,8 +1,6 @@
 {
   "name":"NADEEN-MD",
   "version":"3.0.0",
-  "description":"NADEEN-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻",
-  "main":"nadeen.js",
   "scripts":{
     "start":"pm2 start nadeen.js --deep-monitoring --attach --name nadeen",
     "stop":"pm2 stop nadeen",
